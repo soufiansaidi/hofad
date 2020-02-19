@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 18" width="38" height="18">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1063 -334L857 -334L857 1225L-1063 1225Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff6000 } 
+	</style>
+	<g id="Artboard 1" clip-path="url(#cp1)">
+		<g id="CART">
+			<path id="Polygon 1 copy 5" class="shp0" d="M19 17L2 2L36 2L19 17Z" />
+		</g>
+	</g>
+</svg>

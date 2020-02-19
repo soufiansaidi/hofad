@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 24" width="28" height="24">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-808 -331L1112 -331L1112 1228L-808 1228Z" />
+		</clipPath>
+		<image width="28" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAMAAADeQm2wAAAAAXNSR0IB2cksfwAAAP9QTFRF/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AA/2AAsIlSQQAAAFV0Uk5TneDf4ssoAP+VGkZCkeynqapsHgPv9rzyiFIb26bzcTz0rAr3/ebOtJl8X0QpEcPawolPNRkEeqOogciyZXiY1lhjVKATMONQCN2Uje1AO45Jm3WcdxlGhe4AAADXSURBVHicY2BgZGRiZmFlwwYY2MGAA7skJxcXNw87Lx+/AAYQZACpEGLHDsCSwiJY5UTBkmxiWCXFIZIS+CQl8UlK4ZNkk8YnKYNNUhYqKYfVXKikPBYpBUWopJIyXExFVU1dQ1NLW0eXDSrJpscuom8gYyhoZGxiigh4KG3Gbo4lVqC0BbslTkkudnYra1RgA5e0xXSsPsJYO3Z7B0c4cHJmt3eBS7q6sYu6Iyzz8GRXFoRLegHNUUVIegO5PnBJXyBPAiHpB+T6I+wMCAxC9gRXcAiQBACn/iOiIdDhqAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Artboard 1" clip-path="url(#cp1)">
+		<g id="CART">
+			<use id="Layer 21" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

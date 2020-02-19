@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" width="37" height="37">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-443 -1688L1477 -1688L1477 1125L-443 1125Z" />
+		</clipPath>
+		<image width="13" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAVCAMAAACqsJS4AAAAAXNSR0IB2cksfwAAAL1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////40q6kAAAAD90Uk5TADrLCKj/i5Z1pwZjuw9O/swbPvLeKSvk8DUfz/xMRsb3Wmng5jftL0X61SBe/b8RdqYEipcDnoEMs3IQwibqj5U05wAAAH5JREFUeJxNzlcPgmAMheGiHlFciAMVFCfg3nv8/5+lF6bfeS+aPGnSVOSflRFTNgdSHrZBAUVHUUK5oqjW3LrCazRbirbf6Sp6QdhXDKLhyNwOQMl4Mp3RF1bsJ8R0vlgSV+vNlrjD/kA84nQ2ci640vJ2x4P4fIUkeX9+4wuFIghanFZhtgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff6000 } 
+	</style>
+	<g id="Artboard 1" clip-path="url(#cp1)">
+		<g id="News">
+			<path id="Ellipse 2" class="shp0" d="M18.5 1.91C27.66 1.91 35.09 9.34 35.09 18.5C35.09 27.66 27.66 35.09 18.5 35.09C9.34 35.09 1.91 27.66 1.91 18.5C1.91 9.34 9.34 1.91 18.5 1.91Z" />
+			<use id="Shape 3" href="#img1" x="12" y="8" />
+		</g>
+	</g>
+</svg>
