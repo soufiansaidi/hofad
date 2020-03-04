@@ -38,6 +38,9 @@ h6{margin: 10px 0;color: #555;font-size: 14px;}
 a, a:hover, a:active, a:focus{text-decoration: none;}
 .clearfix{clear: both;overflow: hidden;}
 
+.text-primary{color: var(--primary) !important;}
+.text-second{color: var(--second) !important;}
+
 .btn-primary{display: inline-flex;align-items: center;justify-content: center;width: 250px;height: 60px;background-color: var(--primary);border: 1px solid var(--primary);border-radius: 10px;color: #fff;font-size: 25px;}
 .btn-primary:hover{background-color: white;color: var(--primary);border-color: var(--primary);}
 
@@ -113,6 +116,7 @@ section{overflow: hidden;}
 .project-single .wrap .add-to-cart .btn,.list-project-single .wrap .add-to-cart .btn{margin-top: 27px;display: flex;align-items: center;justify-content: center;width: 100%;height: 40px;background-color: var(--primary);border: 1px solid var(--primary);border-radius: 10px;color: #fff;}
 .project-single .wrap .add-to-cart button.btn,.list-project-single .wrap .add-to-cart button.btn{background-color: #afafaf;border-color: #afafaf;color: #fff;}
 .project-single .wrap .add-to-cart .btn:hover,.list-project-single .wrap .add-to-cart .btn:hover{border-color: var(--second);background-color: var(--second);color: #fff;}
+.project-single .wrap .add-to-cart .btn-second{height: 40px;width: 100%;}
 .project-single .wrap .add-to-cart button.btn:hover,.list-project-single .wrap .add-to-cart button.btn:hover{border-color: var(--primary);background-color: var(--primary);color: #fff;}
 .project-single .wrap .add-to-cart button img,.list-project-single .wrap .add-to-cart button img{width: 20px;height: 20px;margin-right: 7px;}
 .project-single .wrap .range-bar,.list-project-single .wrap .range-bar{position: relative;}
