@@ -113,7 +113,7 @@ section{overflow: hidden;}
 .project-single .wrap .project-results span,.list-project-single .wrap .project-results span{font-size: 20px;display: block;color: #000;font-weight: bold;font-family: 'Bahij_ExtraBold';}
 .project-single .wrap .add-to-cart,.list-project-single .wrap .add-to-cart{color: gray;text-align: center;}
 .project-single .wrap .add-to-cart input,.list-project-single .wrap .add-to-cart input{color: #757575;height: 40px;margin-top: 5px;border-radius: 10px;border: 1px solid #dfdfdf;text-align: center;font-size: 20px;width: 100%;}
-.project-single .wrap .add-to-cart .btn,.list-project-single .wrap .add-to-cart .btn{margin-top: 27px;display: flex;align-items: center;justify-content: center;width: 100%;height: 40px;background-color: var(--primary);border: 1px solid var(--primary);border-radius: 10px;color: #fff;}
+.project-single .wrap .add-to-cart .btn,.list-project-single .wrap .add-to-cart .btn{margin-top: 0;display: flex;align-items: center;justify-content: center;width: 100%;height: 40px;background-color: var(--primary);border: 1px solid var(--primary);border-radius: 10px;color: #fff;}
 .project-single .wrap .add-to-cart button.btn,.list-project-single .wrap .add-to-cart button.btn{background-color: #afafaf;border-color: #afafaf;color: #fff;}
 .project-single .wrap .add-to-cart .btn:hover,.list-project-single .wrap .add-to-cart .btn:hover{border-color: var(--second);background-color: var(--second);color: #fff;}
 .project-single .wrap .add-to-cart .btn-second{height: 40px;width: 100%;}
@@ -319,3 +319,5 @@ footer .copyright p{color: #fff;}
 .single-post .single-news-list .wrap h3{margin: 10px 0;}
 
 video{width: 100%;height: 100vh;}
+
+.project-single .wrap .add-to-cart .row, .list-project-single .wrap .add-to-cart .row{align-items: flex-end;}

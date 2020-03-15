@@ -11,7 +11,7 @@
 @media screen and (max-width:786px){
     .cover-page{height: 300px;}
     .cover-page h1{font-size: 35px;}
-    .list-new-single .news-quik-content{width: calc(100% - 200px);}
+    .list-new-single .news-quik-content{width: calc(100% - 240px);}
     .slideshow .list-slides .owl-dots{bottom: 20px;}
     header .top-header{display: none;}
     header .bottom-header{padding: 15px 0;}
@@ -33,7 +33,7 @@
     .project-single .wrap .project-results, .projects .list-project-single .wrap .project-results{margin: 15px 0 5px;}
     .project-single .wrap .location{margin-bottom: 15px;}
     .project-single .wrap, .projects .list-project-single .wrap{padding: 15px;}
-    .project-single .wrap .add-to-cart .btn, .projects .list-project-single .wrap .add-to-cart .btn{margin-top: 10px;}
+    /* .project-single .wrap .add-to-cart .btn, .projects .list-project-single .wrap .add-to-cart .btn{margin-top: 10px;} */
     .project-single .wrap .custom-check label{font-size: 14px;padding: 0 15px;}
 
     .list-project-single .wrap, .project-single .wrap{padding: 15px;}
@@ -71,14 +71,18 @@
 
     .volunteer form .form-group > label, .volunteer form .form-control{width: 100%;float: none;height: 45px;line-height: 45px;}
     .volunteer .border{background: #fff;}
+
+    .list-new-single .wrap{display: flex;}
+    .list-new-single .news-quik-content{padding-right: 15px;}
 }
 @media screen and (max-width:580px){
-    .list-new-single .news-quik-content{width: 100%;}
+    .list-new-single .news-quik-content{width: 100%;padding-right: 0;}
     .list-new-single .news-thumbnail{width: 100%;margin-bottom: 15px;}
     .voucher-content .wrap{padding: 25px 15px;}
     .voucher-content .wrap .vourcher-action h4{font-size: 20px;}
     .voucher-content .wrap .vourcher-action img{width: 30px;}
     .single-post{border: 0;padding-left: 0;padding-right: 0;}
+    .list-new-single .wrap{display: block;}
     /* .projects .list-projects .list-project-single .wrap .add-to-cart .col-md-4{padding: .5rem!important;} */
     /* .projects .list-projects .list-project-single .wrap .add-to-cart .btn {margin-top: 0;} */
 }
