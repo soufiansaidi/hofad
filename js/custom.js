@@ -43,6 +43,40 @@ if($(".list-projects").length > 0){
 }
 
 
+if($(".list-achievements").length > 0){
+    $(".list-achievements").owlCarousel({
+        items:2,
+        loop:true,
+        margin:20,
+        autoplay:true,
+        autoplayTimeout:9000,
+        autoplayHoverPause:true,
+        rtl:true,
+        dots:true,
+        navigation: false,
+        scrollPerPage: true,
+        slideBy: 2
+    });
+}
+
+
+if($(".list-library").length > 0){
+    $(".list-library").owlCarousel({
+        items:2,
+        loop:true,
+        margin:20,
+        autoplay:true,
+        autoplayTimeout:9000,
+        autoplayHoverPause:true,
+        rtl:true,
+        navigation: false,
+        dots:true,
+        scrollPerPage: true,
+        slideBy: 2
+    });
+}
+
+
 if($(".list-news").length > 0){
     $(".list-news").owlCarousel({
         items:1,
@@ -175,22 +209,29 @@ if($(".single-achievement").length > 0){
 
 
 if ($(window).width() < 786) {
+    $('.filter img').on('click', function(){
+        $('.filter > div').toggle();
+    });
+}
+
+if ($(window).width() < 786) {
     var list = $("ul.menu li  a");
         list.click(function (event) {
-        var submenu = this.parentNode.getElementsByTagName("ul").item(0);
-        if(submenu!=null){
-            event.preventDefault();
-            $(submenu).slideToggle('fast');
-            $(submenu).closest("li").toggleClass("active");
+            var submenu = this.parentNode.getElementsByTagName("ul").item(0);
+            if(submenu!=null){
+                event.preventDefault();
+                $(submenu).slideToggle('fast');
+                $(submenu).closest("li").toggleClass("active");
+            }
         }
-    });
+    );
 
     $('.toggleMenu').on('click', function(){
         $('.menu').toggleClass('open');
     });
 }
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 300) {
         $("header").addClass("scroll-fixed");

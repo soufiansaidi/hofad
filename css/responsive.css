@@ -15,7 +15,7 @@
     .slideshow .list-slides .owl-dots{bottom: 20px;}
     header .top-header{display: none;}
     header .bottom-header{padding: 15px 0;}
-    .title{margin-bottom: 5px;}
+    .title{margin: 0 0 10px;}
     .news .title{margin-bottom: 20px;}
     header .bottom-header .toggleMenu{display: block;}
 
@@ -26,7 +26,7 @@
     header .bottom-header .menu .button .btn{color: #fff;text-align: center;}
 
     .list-new-single .news-thumbnail{padding: 0;}
-    .slideshow, .slideshow img{height: 450px;overflow: hidden;}
+    .slideshow, .slideshow img, .owl-carousel.owl-rtl .owl-item{height: 300px;overflow: hidden;}
 
     .pages .breadcurmbs{font-size: 18px;}
     .project-single .wrap .project-results, .projects .list-project-single .wrap .project-results, .project-single .wrap .project-results span, .projects .list-project-single .wrap .project-results span{font-size: 14px;}
@@ -45,6 +45,7 @@
     .list-project-single .wrap .add-to-cart button.btn img, .project-single .wrap .add-to-cart button.btn img{width: 15px;height: 15px;}
     .list-project-single .wrap .add-to-cart .btn, .project-single .wrap .add-to-cart .btn{font-size: 12px;padding: 0;height: 30px;}
     
+    .list-projects .owl-nav{display: none;}
 
     .filter{width: 100%;display: block;}
     .filter select{width: 100%;display: block;margin-top: 10px;}
@@ -74,6 +75,10 @@
 
     .list-new-single .wrap{display: flex;}
     .list-new-single .news-quik-content{padding-right: 15px;}
+
+    .filter{text-align: left;}
+    .filter > div{display: none;}
+    .filter img{width: 20px;}
 }
 @media screen and (max-width:580px){
     .list-new-single .news-quik-content{width: 100%;padding-right: 0;}
